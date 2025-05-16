@@ -1,12 +1,12 @@
 {
-  "name": "SENU-MD",
+  "name": "SENU_MD_V1",
   "version": "3.0.0",
   "description": "A WhatsApp Bot Created By Senura ©",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SENU-MD",
-    "stop": "pm2 stop SENU-MD",
-    "restart": "pm2 restart SENU-MD"
+    "stop": "pm2 stop SENU_MD_V1",
+    "restart": "pm2 restart SENU_MD_V1"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
